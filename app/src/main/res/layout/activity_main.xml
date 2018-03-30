@@ -8,6 +8,13 @@
     android:orientation="vertical"
     tools:context=".MainActivity">
 
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="activity_main.xml"
+        android:textSize="20sp"
+        android:textAlignment="center"/>
+
     <Button
         android:id="@+id/button_kurs_base"
         android:layout_width="match_parent"
