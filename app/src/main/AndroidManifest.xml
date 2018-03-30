@@ -16,10 +16,17 @@
                 <category android:name="android.intent.category.LAUNCHER" />
             </intent-filter>
         </activity>
-        <activity android:name=".ActivityKursBase" />
-        <activity android:name=".ActivityKursNetwork" />
-        <activity android:name=".ActivityKonspektBase" />
-        <activity android:name=".ActivityKonspektNetwork"></activity>
+        <activity android:name=".ActivityKursBase"
+            android:label="@string/app_name_kurs_base"/>
+
+        <activity android:name=".ActivityKursNetwork"
+            android:label="@string/app_name_kurs_network"/>
+
+        <activity android:name=".ActivityKonspektBase"
+            android:label="@string/app_name_konspekt_base"/>
+
+        <activity android:name=".ActivityKonspektNetwork"
+            android:label="@string/app_name_konspekt_network"/>
     </application>
 
 </manifest>

@@ -7,12 +7,17 @@
     android:orientation="vertical"
     tools:context=".ActivityKursBase">
 
-    <TextView
+    <WebView
+        android:id="@+id/webview_kurs_base"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent" />
+
+    <!--<TextView
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:text="activity_kurs_base.xml"
         android:textAlignment="center"
-        android:textSize="20sp" />
+        android:textSize="20sp" />-->
 
     <!--<ImageView   Ошибка
         android:layout_width="wrap_content"

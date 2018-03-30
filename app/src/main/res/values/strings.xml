@@ -1,6 +1,11 @@
 <resources>
     <string name="app_name">Alcatel_PBX</string>
 
+    <string name="app_name_kurs_base">Курс Base</string>
+    <string name="app_name_kurs_network">Курс Network</string>
+    <string name="app_name_konspekt_base">Конспект Base</string>
+    <string name="app_name_konspekt_network">Конспект Network</string>
+
     <!--My strings-->
     <string name="button_kurs_base">Курс Base</string>
     <string name="button_kurs_network">Курс Network</string>

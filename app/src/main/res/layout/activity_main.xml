@@ -8,17 +8,18 @@
     android:orientation="vertical"
     tools:context=".MainActivity">
 
-    <TextView
+    <!--<TextView
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:text="activity_main.xml"
         android:textSize="20sp"
-        android:textAlignment="center"/>
+        android:textAlignment="center"/>-->
 
     <Button
         android:id="@+id/button_kurs_base"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
+        android:layout_weight="1"
         android:text="@string/button_kurs_base"
         android:textSize="20sp"/>
 
@@ -26,6 +27,7 @@
         android:id="@+id/button_kurs_network"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
+        android:layout_weight="1"
         android:text="@string/button_kurs_network"
         android:textSize="20sp"/>
 
@@ -33,6 +35,7 @@
         android:id="@+id/button_konspekt_base"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
+        android:layout_weight="1"
         android:text="@string/button_konspekt_base"
         android:textSize="20sp"/>
 
@@ -40,6 +43,7 @@
         android:id="@+id/button_konspekt_network"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
+        android:layout_weight="1"
         android:text="@string/button_konspekt_network"
         android:textSize="20sp"/>
 

@@ -23,7 +23,7 @@ public class MainActivity extends AppCompatActivity implements View.OnClickListe
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_main);
 
-        btnKursBase = (Button)findViewById(R.id.button_kurs_base);
+        btnKursBase = findViewById(R.id.button_kurs_base);
         btnKursNetwork = findViewById(R.id.button_kurs_network);
         btnKonspektBase = findViewById(button_konspekt_base);
         btnKonspektNetwork = findViewById(button_konspekt_network);
