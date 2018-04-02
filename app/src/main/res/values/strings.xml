@@ -11,4 +11,6 @@
     <string name="button_kurs_network">Курс Network</string>
     <string name="button_konspekt_base">Конспект Base</string>
     <string name="button_konspekt_network">Конспект Network</string>
+
+
 </resources>

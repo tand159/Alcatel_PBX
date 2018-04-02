@@ -17,7 +17,7 @@
             </intent-filter>
         </activity>
         <activity android:name=".ActivityKursBase"
-            android:label="@string/app_name_kurs_base"/>
+            android:label="@string/app_name_kurs_base" />
 
         <activity android:name=".ActivityKursNetwork"
             android:label="@string/app_name_kurs_network"/>
