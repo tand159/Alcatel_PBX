@@ -21,7 +21,7 @@ public class ActivityKursBase extends AppCompatActivity {
         web.getSettings().setJavaScriptEnabled(true);
         web.setWebChromeClient(new WebChromeClient());
         //web.loadUrl("file:///android_asset/www/index.html");         //- отображение рисунка через WebView
-        web.loadUrl("file:///android_asset/img_kurs_base_001.png");
+        web.loadUrl("file:///android_asset/www/animate_name.html");
 
         // Включаем поддержку масштабирования
         web.getSettings().setSupportZoom(true);
